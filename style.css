@@ -1,0 +1,15 @@
+.custume-brand {
+
+    background: #121FCF;
+    background: linear-gradient(to right, #3642ec 0%, #13CF1F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body.modal-open>div.bg,
+.modal-backdrop.fade.show {
+    z-index: 1;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
